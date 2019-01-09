@@ -6,7 +6,19 @@ html {
     font-family: sans-serif;
 }
 
-header {
+/*
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  */
+  /*
+  /////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  header {
     background: #3B5998;
     padding: 15px;
 }
@@ -92,5 +104,25 @@ header .search-area {
 }
 
 header .search-area ul li {
+    display: inline-block;
+}
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#top-area {
+    padding: 200px 15px 90px 15px; 
+}
+
+#top-area .profile-info .user-img {
+    padding: 10px;
+    display: inline-block;  
+}
+
+#top-area .profile-info .user-img img {
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details {
     display: inline-block;
 }
