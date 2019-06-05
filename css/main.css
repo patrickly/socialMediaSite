@@ -258,3 +258,17 @@ header .search-area ul li {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+#content-area .widget-box.post .head .user-img {
+  display: inline-block;
+  background: url("../img/2092709.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+#content-area .widget-box.post .head .post-info {
+}
