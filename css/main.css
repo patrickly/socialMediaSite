@@ -259,8 +259,12 @@ header .search-area ul li {
   text-transform: uppercase;
 }
 
+#content-area .widget-box.post {
+  overflow: auto;
+}
 #content-area .widget-box.post .head .user-img {
   display: inline-block;
+  float: left;
   background: url("../img/2092709.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -268,7 +272,12 @@ header .search-area ul li {
   background-size: cover;
   height: 40px;
   width: 40px;
+  margin: 0 15px 0 0;
+  border-radius: 50%;
 }
 
 #content-area .widget-box.post .head .post-info {
+  display: inline-block;
+  float: left;
+  width: 80%;
 }
