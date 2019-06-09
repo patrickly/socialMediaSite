@@ -267,6 +267,13 @@ header .search-area ul li {
 #content-area .widget-box.post {
   overflow: auto;
 }
+
+#content-area .widget-box.post .head .user-img-container {
+  width: 8%;
+  display: inline-block;
+  float: left;
+  overflow: auto;
+}
 #content-area .widget-box.post .head .user-img {
   display: inline-block;
   float: left;
@@ -277,14 +284,20 @@ header .search-area ul li {
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin: 0 15px 0 0;
+  margin: 0;
   border-radius: 50%;
 }
 
 #content-area .widget-box.post .head .post-info {
   display: inline-block;
   float: left;
-  width: 80%;
+  width: 92%;
+}
+
+#content-area .widget-box.post .head::after {
+  content: " ";
+  clear: both;
+  display: table;
 }
 
 #content-area .widget-box.post .head .post-info .user-info {
