@@ -8,6 +8,11 @@ html {
 
 a {
   text-decoration: none;
+  color: #2196f3;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: red;
 }
 
 /*
@@ -280,4 +285,21 @@ header .search-area ul li {
   display: inline-block;
   float: left;
   width: 80%;
+}
+
+#content-area .widget-box.post .head .post-info .user-info {
+  display: block;
+  font-size: 14px;
+  margin: 4px 0 6px 0;
+  /* color: #2196f3; */
+}
+
+#content-area .widget-box.post .head .post-info .post-date {
+  display: block;
+  font-size: 12px;
+  color: #ababab;
+}
+
+#content-area .widget-box.post .body .post-img {
+  color: green;
 }
