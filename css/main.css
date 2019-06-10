@@ -313,6 +313,6 @@ header .search-area ul li {
   color: #ababab;
 }
 
-#content-area .widget-box.post .body .post-img {
-  color: green;
+#content-area .widget-box.post .body .post-img img {
+  width: 100%;
 }
