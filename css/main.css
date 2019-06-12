@@ -11,6 +11,7 @@ a {
   color: #2196f3;
   transition: all 0.2s ease-in-out;
 }
+
 a:hover {
   color: red;
 }
@@ -30,6 +31,7 @@ header a {
   font-size: 12px;
   font-weight: 300;
 }
+
 header .fas {
   color: white;
   font-size: 14px;
@@ -64,6 +66,7 @@ header .menu ul li {
 header .menu ul li a {
   margin-right: 20px;
 }
+
 header .icon-links {
   display: inline-block;
   margin-left: -4px;
@@ -100,14 +103,14 @@ header .search-area {
 header .search-area ul li {
   display: inline-block;
 }
+
 /*
 /////////////////////////////////////////////////////////////////////////////////////////////
 */
 
 #top-area {
   padding: 200px 15px 90px 15px;
-  background: url(https://wallpapercave.com/wp/9VhZtYR.jpg) no-repeat center
-    center;
+  background: url(https://wallpapercave.com/wp/9VhZtYR.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -183,8 +186,7 @@ header .search-area ul li {
   overflow: auto;
 }
 
-#content-area .widget-box .head {
-}
+#content-area .widget-box .head {}
 
 #content-area .widget-box .head .widget-icon-container {
   display: inline-block;
@@ -250,9 +252,11 @@ header .search-area ul li {
 #content-area .main-area .submenu ul li:nth-child(5) {
   padding: 28px 0 21px;
 }
+
 #content-area .main-area .submenu ul li .far {
   font-size: 20px;
 }
+
 #content-area .main-area .submenu ul li .fas {
   font-size: 20px;
 }
@@ -274,6 +278,7 @@ header .search-area ul li {
   float: left;
   overflow: auto;
 }
+
 #content-area .widget-box.post .head .user-img {
   display: inline-block;
   float: left;
@@ -315,4 +320,27 @@ header .search-area ul li {
 
 #content-area .widget-box.post .body .post-img img {
   width: 100%;
+}
+
+
+#content-area .widget-box.post .body .post-comments .user-img {
+  width: 8%;
+  display: inline-block;
+  float: left;
+  overflow: auto;
+}
+
+#content-area .widget-box.post .post-comments::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+#content-area .widget-box.post .body .post-comments .user-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#content-area .widget-box.post .body .post-form .user-img img {
+  border-radius: 50%;
 }
