@@ -343,6 +343,13 @@ header .search-area ul li {
   width: 40px;
 }
 
+#content-area .widget-box.post .body .post-comments {
+  background: #E0E0E0;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 15px;
+}
+
 #content-area .widget-box.post .body .post-comments .user-comment {
   display: inline-block;
   float: left;
@@ -355,6 +362,52 @@ header .search-area ul li {
 
 
 
+
+
+
+
+
+
+
+
+
+#content-area .widget-box.post .body .post-form {
+  /* background: green; */
+
+}
+
+#content-area .widget-box.post .body .post-form .user-img {
+  width: 8%;
+  display: inline-block;
+  float: left;
+  /* overflow: auto; */
+}
+
+#content-area .widget-box.post .post-form::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
 #content-area .widget-box.post .body .post-form .user-img img {
   border-radius: 50%;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+#content-area .widget-box.post .body .post-form .form-info {
+  display: inline-block;
+  float: left;
+  width: 92%;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+
+#content-area .widget-box.post .body .post-form .form-info .icons {
+  display: inline-block;
+  float: right;
 }
