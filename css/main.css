@@ -327,7 +327,7 @@ header .search-area ul li {
   width: 8%;
   display: inline-block;
   float: left;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 #content-area .widget-box.post .post-comments::after {
@@ -337,9 +337,23 @@ header .search-area ul li {
 }
 
 #content-area .widget-box.post .body .post-comments .user-img img {
-  width: 100%;
   border-radius: 50%;
+  float: left;
+  height: 40px;
+  width: 40px;
 }
+
+#content-area .widget-box.post .body .post-comments .user-comment {
+  display: inline-block;
+  float: left;
+  width: 92%;
+  font-size: 14px;
+}
+
+
+
+
+
 
 #content-area .widget-box.post .body .post-form .user-img img {
   border-radius: 50%;
