@@ -323,6 +323,32 @@ header .search-area ul li {
 }
 
 
+
+#content-area .widget-box.post .body .top-icons {
+  padding: 15px 0;
+  width: 100%;
+  color: #ababab;
+
+}
+
+#content-area .widget-box.post .body .top-icons .ba {
+  font-size: 20px;
+
+}
+
+
+#content-area .widget-box.post .body .top-icons .fa-thumbs-up {
+  margin-right: 15px;
+}
+
+#content-area .widget-box.post .body .top-icons span {
+  float: right;
+  display: inline-block;
+}
+
+#content-area .widget-box.post .body .top-icons .fa-comment {}
+
+
 #content-area .widget-box.post .body .post-comments .user-img {
   width: 8%;
   display: inline-block;
@@ -410,4 +436,9 @@ header .search-area ul li {
 #content-area .widget-box.post .body .post-form .form-info .icons {
   display: inline-block;
   float: right;
+}
+
+#content-area .widget-box.post .body .post-form .form-info .icons .ba {
+  font-size: 20px;
+  margin: 0 15px 0 0;
 }
